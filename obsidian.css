@@ -77,6 +77,29 @@ h1, h2, h3, h4, h5, h6, .markdown-preview-view h6{
     color: var(--text-title);
 }
 
+/*适配中文字体大小*/
+.markdown-preview-view h1, .cm-s-obsidian span.cm-header-1 {
+  font-size: 26px;
+  line-height: 1.3em;
+}
+
+.markdown-preview-view h2, .cm-s-obsidian span.cm-header-2 {
+  font-size: 19.6px;
+  line-height: 1.2;
+}
+
+.markdown-preview-view h3, .cm-s-obsidian span.cm-header-3 {
+  font-size: 16.8px;
+  line-height: 1.2;
+}
+
+.markdown-preview-view h4, .cm-s-obsidian span.cm-header-4,
+.markdown-preview-view h5, .cm-s-obsidian span.cm-header-5,
+.markdown-preview-view h6, .cm-s-obsidian span.cm-header-6 {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
 .cm-formatting-image.cm-link {
     color: var(--text-faint) !important;
 }
